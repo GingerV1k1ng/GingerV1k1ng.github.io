@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'para1',
   paragraphTwo: 'para2',
   paragraphThree: 'para3',
-  resume: '', // if no resume, the button will not show up
+  resume: 'src/resources/CV.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
