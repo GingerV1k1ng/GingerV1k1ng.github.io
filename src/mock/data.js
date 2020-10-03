@@ -18,10 +18,16 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profilepic.jpg',
-  paragraphOne: 'para1',
-  paragraphTwo: 'para2',
-  paragraphThree: 'para3',
-  resume: 'src/resources/CV.pdf', // if no resume, the button will not show up
+  paragraphOne:
+    'Newly graduate Candidate (Cand.Scient) in Computer Science at Aalborg University specializing in programming technologies',
+  paragraphTwo:
+    'My interest is in functional programming and programming language design, but I just have a interest in programming in general and love to work in teams and overcome problems together.' +
+    ' ' +
+    'I also love working on designing and building full platforms being a full stack developer working on both backend and frontend',
+  paragraphThree:
+    'When I am not working with developing platforms and overcoming programming problems I like to play guitar and work with video editing',
+  resume:
+    'https://raw.githubusercontent.com/GingerV1k1ng/GingerV1k1ng.github.io/main/src/resources/CV.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -30,8 +36,11 @@ export const projectsData = [
     id: nanoid(),
     img: 'nordiumProject.png',
     title: 'Nordium',
-    info: '',
-    info2: '',
+    info: 'Nordium is a health platform I co-founded with two friends. It helps private people with finding the correct health professional that can help them solve their issue and book a time at them.',
+    info2:
+      ' Two others and me designed the full platform and developed it from the ground up. We are especially proud of a Machine Learning algorithm that helps private people find the correct health professional' +
+      ' ' +
+      'The platform was made with C# as the backend, React as frontend and PostgresSQL for our database',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
