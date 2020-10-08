@@ -8,3 +8,8 @@ My static react website hosted on github pages at [thorjensen.io](http://thorjen
 
 ![Gif of website](website.gif)
 
+
+## Prerequisites
+- NPM 6.9.0 or higher [Download](https://www.npmjs.com/)
+- Node.js 10.16.0 or higher [Download](https://nodejs.org/en/download/)
+- gatsby-cli 8.22 or higher [Download](https://www.gatsbyjs.com/docs/quick-start/)
